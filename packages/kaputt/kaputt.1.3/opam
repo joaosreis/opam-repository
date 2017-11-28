@@ -1,0 +1,15 @@
+opam-version: "1.2"
+maintainer: "joaosreis@outlook.pt"
+bug-reports: "https://github.com/joaosreis/kaputt/issues"
+dev-repo: ": "https://github.com/joaosreis/kaputt.git"
+build: [
+  ["sh" "configure"]
+  [make "all"]
+]
+remove: [["ocamlfind" "remove" "kaputt"]]
+depends: [
+  "ocamlfind"
+  "ocamlbuild" {build}
+  "num"
+]
+install: [make "install"]
