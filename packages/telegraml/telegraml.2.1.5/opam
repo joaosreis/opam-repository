@@ -1,0 +1,18 @@
+opam-version: "1.2"
+maintainer: "joaosreis <joaosreis@outlook.pt>"
+authors: ["nv-vn <nv@cock.li>" "joaosreis <joaosreis@outlook.pt>"]
+homepage: "https://github.com/joaosreis/telegraml"
+bug-reports: "https://github.com/joaosreis/telegraml/issues"
+license: "MIT"
+dev-repo: "https://github.com/joaosreis/telegraml.git"
+build: [
+  ["jbuilder" "build" "-p" name "-j" jobs]
+]
+available: [ocaml-version >= "4.06"]
+depends: [
+  "jbuilder" {build}
+  "lwt" {>= "2.5.0"}
+  "cohttp" {>= "1.0.0"}
+  "yojson" {>= "1.3.0"}
+  "batteries" {>= "2.4.0"}
+]
