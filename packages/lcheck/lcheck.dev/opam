@@ -28,7 +28,7 @@ dev-repo: "git+https://github.com/jmid/lcheck.git"
 url {
   src: "https://github.com/joaosreis/lcheck/archive/dev.tar.gz"
   checksum: [
-    "md5=7807b1968bdd7de4c2e8a5bfbd103da8"
-    "sha512=b28455bb5e7335b886b2293e1f920dd364e3c046934543165e902352b1951e485f97bac2f753497196fe37b04e55bbbb8fb4cfad5940ee7426426d0cbc837315"
+    "md5=51d36a1bcc518135155762d3680ce754"
+    "sha512=99074861c5648610df8df9ada7342ac12d9a4452394b54fc4a52ab4262d00c4ac5386cf91f94c1903a1625e2c484ec3912e602d73ad968d611da5386509122d4"
   ]
 }
