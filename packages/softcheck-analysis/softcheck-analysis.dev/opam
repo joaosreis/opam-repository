@@ -33,7 +33,7 @@ dev-repo: "git+https://github.com/releaselab/softcheck-analysis.git"
 url {
   src: "https://github.com/releaselab/softcheck-analysis/archive/dev.tar.gz"
   checksum: [
-    "md5=2c636356c28d06f6d63bb2b76824813f"
-    "sha512=93cbd11debc2b20190a9615834652298339579d40e271dc490eeaac2ee222031009c8dc351ecffc8e8dc3d807eeb4d2c1e51dd1875d704f45e2dbb636397e68d"
+    "md5=2e0c9fd8cc312b6be5ddce366b48387c"
+    "sha512=d7c9a2ae3279d18802f9f0557869cbcf0a757ac99c65405fe5e83345a6decaa8631f7b86a67d2df859b128ac2d9da52f6cfc75bf9ab74970a8cb3499e28c3ebc"
   ]
 }
