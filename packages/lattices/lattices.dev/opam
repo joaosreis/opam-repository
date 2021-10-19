@@ -34,9 +34,9 @@ build: [
 ]
 dev-repo: "git+https://github.com/releaselab/ocaml-lattices.git"
 url {
-  src: "https://github.com/joaosreis/lcheck/archive/dev.tar.gz"
+  src: "https://github.com/releaselab/ocaml-lattices/archive/dev.tar.gz"
   checksum: [
-    "md5=51d36a1bcc518135155762d3680ce754"
-    "sha512=99074861c5648610df8df9ada7342ac12d9a4452394b54fc4a52ab4262d00c4ac5386cf91f94c1903a1625e2c484ec3912e602d73ad968d611da5386509122d4"
+    "md5=f3a21ef15a6af2ea9ad334f7fb5c1fa3"
+    "sha512=1c4523505d741b7373e4ae488b622b32a3c4244da8fff4a5da6275b74267e2e8207cec233f8d2889f271bd07cf4781674307ba9a1a73784ab13833f5ed5a6a68"
   ]
 }
