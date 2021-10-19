@@ -4,11 +4,11 @@ synopsis: "A library with various implementations and functors of lattices"
 maintainer: ["João Santos Reis <joao.reis@ubi.pt>"]
 authors: ["João Santos Reis <joao.reis@ubi.pt>"]
 license: "MIT"
-homepage: "https://gitlab.com/releaselab/fresco/lattices"
-bug-reports: "https://gitlab.com/releaselab/fresco/lattices/issues"
+homepage: "https://github.com/releaselab/ocaml-lattices"
+bug-reports: "https://github.com/releaselab/ocaml-lattices/issues"
 depends: [
   "dune" {>= "2.8" & build}
-  "core_kernel"
+  "base"
   "bignum"
   "ppx_sexp_conv"
   "ppx_deriving"
@@ -32,12 +32,11 @@ build: [
     "@doc" {with-doc}
   ]
 ]
-dev-repo: "git+https://gitlab.com/releaselab/fresco/lattices.git"
+dev-repo: "git+https://github.com/releaselab/ocaml-lattices.git"
 url {
-  src:
-    "https://gitlab.com/releaselab/fresco/lattices/-/archive/dev/lattices-dev.tar.gz"
+  src: "https://github.com/joaosreis/lcheck/archive/dev.tar.gz"
   checksum: [
-    "md5=3d39c6b18beb102e6e18c8cbcc6020a0"
-    "sha512=10689f4e7dcbea1807afa8748aaebcfd79264fac8c43b9b27f36e1b08376af0ff1f3c5784aa1c5f0d44b7167dced588a2db2e46a917ccf29910d75b63ca87a6a"
+    "md5=51d36a1bcc518135155762d3680ce754"
+    "sha512=99074861c5648610df8df9ada7342ac12d9a4452394b54fc4a52ab4262d00c4ac5386cf91f94c1903a1625e2c484ec3912e602d73ad968d611da5386509122d4"
   ]
 }
